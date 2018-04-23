@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/homeicon"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_exercicios_peito"
+            android:icon="@drawable/peitoicon"
+            android:title="Exercícios para Peito" />
+        <item
+            android:id="@+id/nav_exercicios_costas"
+            android:icon="@drawable/costasicon"
+            android:title="Exercícios para Costas" />
+        <item
+            android:id="@+id/nav_exercicios_ombro"
+            android:icon="@drawable/ombroicon"
+            android:title="Exercícios para Ombro" />
+        <item
+            android:id="@+id/nav_exercicios_perna"
+            android:icon="@drawable/pernaicon"
+            android:title="Exercícios para Perna" />
+        <item
+            android:id="@+id/nav_exercicios_gluteo"
+            android:icon="@drawable/gluteoicon"
+            android:title="Exercícios para Glúteos" />
+        <item
+            android:id="@+id/nav_dica_dia"
+            android:icon="@drawable/videoicon"
+            android:title="Dica do Dia" />
+        <item
+            android:id="@+id/nav_loja"
+            android:icon="@drawable/lojaicon"
+            android:title="Nossa Loja" />
+    </group>
+
+    <item
+        android:id="@+id/nav_sair"
+        android:icon="@drawable/sairicon"
+        android:title="Sair" />
+
+</menu>
